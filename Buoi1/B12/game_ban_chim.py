@@ -17,13 +17,13 @@ WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 
 # Load ảnh chim và đạn
-bird_img = pygame.image.load('chim1.png')
-bird_img = pygame.transform.scale(bird_img, (80,70))
-bullet_img = pygame.image.load('bullet.png')
-bullet_img = pygame.transform.scale(bullet_img, (20,40))
+bird_img = pygame.image.load('Buoi1/B12/chim.png')  # Thay thế 'chim.png' bằng đường dẫn đúng
+bird_img = pygame.transform.scale(bird_img, (80, 70))
+bullet_img = pygame.image.load('Buoi1/B12/dan.png')  # Thay thế 'dan.png' bằng đường dẫn đúng
+bullet_img = pygame.transform.scale(bullet_img, (20, 40))
 
-# load bg
-background_img = pygame.image.load('bg2.jpg')
+# Load ảnh nền
+background_img = pygame.image.load('Buoi1/B12/background.jpg')  # Thay thế 'background.jpg' bằng đường dẫn đúng
 background_img = pygame.transform.scale(background_img, (screen_width, screen_height))
 
 # Tạo lớp Chim
